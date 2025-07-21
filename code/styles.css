@@ -1,5 +1,24 @@
+* {
+    font-family: "Roboto"
+}
+
 body {
   margin: auto;
+}
+
+h1 {
+    font-size: 32px;
+    color: #F9FAF8;
+    font-weight: 400;
+}
+
+p {
+    font-size: 15px;
+    color: #E5E7EB;
+}
+
+p, h1 {
+    margin: 0px;
 }
 
 ul {
@@ -13,7 +32,8 @@ ul {
 
 a {
   text-decoration: none;
-  color: ;
+  color: #eee;
+  font-size: 14px;;
 }
 
 img {
@@ -22,9 +42,12 @@ img {
 }
 
 .sector-1 {
+    background-color: #1F2937;
+
     padding-top: 10px;
     padding-left: 150px;
     padding-right: 150px;
+    padding-bottom: 80px;;
 }
 
 .header {
@@ -34,9 +57,15 @@ img {
   margin-bottom: 70px;
 }
 
+.hero-text {
+    font-size: 20px;
+    color: #F9FAF8;
+}
+
 .content-s1 {
     display: flex;
     gap: 50px;
+    justify-content: space-between;
 }
 
 /* add display: flex; & flex-direction: column; to container (when all sectors are finished) */
