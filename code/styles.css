@@ -1,1 +1,29 @@
-/* initial commit */
+body {
+  margin: auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: ;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+
+  padding-top: 10px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+/* add display: flex; & flex-direction: column; to container (when all sectors are finished) */
+.container
