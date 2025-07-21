@@ -16,6 +16,11 @@ a {
   color: ;
 }
 
+img {
+    width: 400px;
+    height: 200px;
+}
+
 .sector-1 {
     padding-top: 10px;
     padding-left: 150px;
@@ -25,6 +30,13 @@ a {
 .header {
   display: flex;
   justify-content: space-between;
+  
+  margin-bottom: 70px;
+}
+
+.content-s1 {
+    display: flex;
+    gap: 50px;
 }
 
 /* add display: flex; & flex-direction: column; to container (when all sectors are finished) */
