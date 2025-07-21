@@ -41,6 +41,17 @@ img {
     height: 200px;
 }
 
+button {
+    margin-top: 5px;;
+    padding: 5px 25px;
+
+    background-color: #3882F6;
+    color: #eee;
+
+    border: 0px;
+    border-radius: 8px;
+}
+
 .sector-1 {
     background-color: #1F2937;
 
