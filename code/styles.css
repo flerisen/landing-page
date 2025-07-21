@@ -16,13 +16,15 @@ a {
   color: ;
 }
 
+.sector-1 {
+    padding-top: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
-
-  padding-top: 10px;
-  padding-left: 150px;
-  padding-right: 150px;
 }
 
 /* add display: flex; & flex-direction: column; to container (when all sectors are finished) */
