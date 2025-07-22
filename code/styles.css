@@ -139,4 +139,37 @@ figcaption {
 
 .sector-4 {
   display: flex;
+  gap: 100px;
+
+  padding-top: 60px;
+  padding-left: 125px;
+  padding-right: 125px;
+  padding-bottom: 60px;
+
+  background-color: #3882f6;
+  margin: 100px;
+  border-radius: 50px;
+}
+
+/* fix button */
+
+.sector-4 button {
+  border: 20px;
+  border-color: black;
+}
+
+.text-sector4 h1 {
+  color: #eee;
+  font-size: 25px;
+}
+
+.footer {
+  background-color: #1f2937;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #eee;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
