@@ -46,7 +46,7 @@ img {
   height: 200px;
 }
 
-button {
+.sector-1 button {
   margin-top: 5px;
   padding: 5px 25px;
 
@@ -139,7 +139,9 @@ figcaption {
 
 .sector-4 {
   display: flex;
-  gap: 100px;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
 
   padding-top: 60px;
   padding-left: 125px;
@@ -151,16 +153,19 @@ figcaption {
   border-radius: 50px;
 }
 
-/* fix button */
-
-.sector-4 button {
-  border: 20px;
-  border-color: black;
-}
-
 .text-sector4 h1 {
   color: #eee;
   font-size: 25px;
+}
+
+.sector-4 button {
+  padding: 8px 20px;
+
+  background-color: #3882f6;
+  color: #eee;
+
+  border-radius: 10px;
+  border-color: #eee;
 }
 
 .footer {
