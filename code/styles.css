@@ -7,6 +7,7 @@ body {
   max-width: 1360px;
   border: 5px solid;
   color: #eee;
+  background-color: #36393e;
 }
 
 /* header */
@@ -101,6 +102,8 @@ h1 {
   padding-left: 220px;
   padding-right: 220px;
   padding-bottom: 50px;
+
+  background-color: white;
 }
 
 .image-sector2 {
@@ -118,10 +121,12 @@ h1 {
 figcaption {
   text-align: center;
   width: 150px;
+  color: #1f2937;
 }
 
 h2 {
   text-align: center;
+  color: #1f2937;
 }
 
 /* sector 3 */
